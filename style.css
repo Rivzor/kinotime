@@ -1,0 +1,133 @@
+/* Global styles */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f8f8f8;
+	margin: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+h1 {
+	margin: 0;
+	font-size: 36px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #f8f8f8;
+}
+
+main {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h2 {
+	font-size: 24px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #666;
+}
+
+section#movie-info {
+	margin-top: 50px;
+	padding: 20px;
+	background-color: #f8f8f8;
+}
+
+section#movie-info h2 {
+	font-size: 36px;
+	margin-top: 0;
+}
+
+section#movie-info img {
+	max-width: 300px;
+	float: left;
+	margin-right: 20px;
+}
+
+button {
+	padding: 10px 20px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #666;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+	header {
+		padding: 10px;
+	}
+
+	h1 {
+		font-size: 24px;
+	}
+
+	nav li {
+		display: block;
+		margin-right: 0;
+		margin-bottom: 10px;
+	}
+
+	main {
+		padding: 10px;
+	}
+
+	h2 {
+		font-size: 20px;
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+
+	section#movie-info img {
+		max-width: 100%;
+		float: none;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+}
